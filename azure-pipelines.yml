@@ -2,7 +2,11 @@ trigger:
   - '*'
   
   variables:
+<<<<<<< HEAD
     buildConfiguration: 'Release'
+=======
+  buildConfiguration: 'Release'
+>>>>>>> 0ccf577d3f190bdf5b338d906c8c2ad893325342
   
   stages:
   - stage: 'Build'
